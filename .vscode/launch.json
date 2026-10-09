@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Prepare DDD",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/prepare_ddd.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--data-dir",
+        "D:/IA/ProyectoRedesNeuronales/DriversDrowsinessDataset/Driver Drowsiness Dataset (DDD)",
+        "--out-dir",
+        "D:/IA/ProyectoRedesNeuronales/processed"
+      ]
+    },
+    {
+      "name": "Python: Prepare DDD (debug subset)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/prepare_ddd.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--data-dir",
+        "D:/IA/ProyectoRedesNeuronales/DriversDrowsinessDataset/Driver Drowsiness Dataset (DDD)",
+        "--out-dir",
+        "D:/IA/ProyectoRedesNeuronales/processed_debug",
+        "--limit",
+        "500",
+        "--skip-hash"
+      ]
+    }
+  ]
+}

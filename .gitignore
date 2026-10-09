@@ -1,0 +1,32 @@
+# Dataset & generated tensors
+processed/
+*.npz
+*.npy
+data/
+*.zip
+
+# Reports / metadata
+cleaning_report.csv
+splits.csv
+normalization.json
+class_weights.json
+metadata.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Visual Studio
+.vs/
+*.user
+*.pyproj.user
+[Bb]in/
+[Oo]bj/
+
+# Editors / OS
+.idea/
+Thumbs.db
+.DS_Store
